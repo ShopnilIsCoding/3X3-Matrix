@@ -291,7 +291,7 @@ const App = () => {
   return (
     <div className="flex flex-col min-h-screen justify-between">
       <div className=" bg-base-200 min-h-[20px] w-full text-center lg:text-2xl py-2 flex flex-col items-center justify-center gap-4 animate__fadeInDown animate__animated">
-          <div className="flex flex-wrap justify-center gap-20">
+          <div className="flex flex-wrap justify-around gap-4">
           <p className="flex items-center text-info">level: <GiLevelEndFlag className="ml-5 mr-2 text-red-600"/>{level}</p>
           <p className="flex items-center text-info">Score: <BiSolidCoinStack className="ml-5 mr-2 text-green-600"/>{score}</p>
           <BackgroundMusic></BackgroundMusic>
